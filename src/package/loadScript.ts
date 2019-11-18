@@ -1,4 +1,4 @@
-export const preloadScript = src => {
+export const preloadScript = (src: string) => {
   if (document.querySelector('link[href="' + src + '"]')) {
     return;
   }
@@ -11,7 +11,7 @@ export const preloadScript = src => {
   document.head.appendChild(el);
 };
 
-export const loadScript = src => {
+export const loadScript = (src: string)  => {
   return new Promise(function(resolve, reject) {
     if (document.querySelector('script[src="' + src + '"]')) {
       resolve();
