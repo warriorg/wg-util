@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "JavaScript util",
   "main": "./build/index.js",
+  "homepage": "https://github.com/warriorg/wg-util",
   "scripts": {
     "dev": "npm run tsc:w",
     "build": "npm run test && npm run lint && tsc",
