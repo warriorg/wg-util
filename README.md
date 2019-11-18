@@ -2,6 +2,12 @@
 
 前端的util库
 
+# 使用
+
+```bash
+npm i wg-util
+```
+
 # average 
 
 ## average([]number)
