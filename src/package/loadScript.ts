@@ -11,7 +11,7 @@ export const preloadScript = (src: string) => {
   document.head.appendChild(el);
 };
 
-export const loadScript = (src: string)  => {
+export const loadScript = (src: string) => {
   return new Promise(function(resolve, reject) {
     if (document.querySelector('script[src="' + src + '"]')) {
       resolve();

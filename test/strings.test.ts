@@ -1,4 +1,3 @@
-
 import { randomStr } from "../src/package/strings";
 
 test("encodeParam", () => {
