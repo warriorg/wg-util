@@ -33,3 +33,5 @@ npm i wg-util
 ## encodeParam(param)
 ## loadScript(src: string) 
 ## preloadScript (src: string)
+
+npm run test -t throttle
